@@ -17,16 +17,7 @@
  * @returns {number[]} - Indizes der zwei Zahlen, die zusammen target ergeben
  */
 function twoSum(nums, target) {
-  const indices = {};
 
-  for (let i = 0; i < nums.length; i++) {
-    const complement = target - nums[i];
-    if (indices.hasOwnProperty(complement)) {
-      return [indices[complement], i];
-    }
-    indices[nums[i]] = i;
-  }
-  return [];
 }
 
 // Testaufrufe

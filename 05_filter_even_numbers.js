@@ -11,7 +11,7 @@
  * @returns {number[]} - Gefilterte Liste mit nur geraden Zahlen
  */
 function filterEvenNumbers(numbers) {
-  return numbers.filter((num) => num % 2 === 0);
+
 }
 
 // Testaufrufe

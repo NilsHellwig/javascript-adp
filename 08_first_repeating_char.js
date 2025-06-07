@@ -10,21 +10,7 @@
  * @returns {string|null} - Erstes nicht wiederholtes Zeichen oder null
  */
 function firstUniqueChar(str) {
-  const freq = {};
 
-  // Häufigkeit zählen
-  for (let char of str) {
-    freq[char] = (freq[char] || 0) + 1;
-  }
-
-  // Ersten eindeutigen Buchstaben finden
-  for (let char of str) {
-    if (freq[char] === 1) {
-      return char;
-    }
-  }
-
-  return null;
 }
 
 // Testaufrufe

@@ -13,7 +13,7 @@
  * @returns {string[]} - Liste der formatierten vollständigen Namen
  */
 function formatFullNames(people) {
-  return people.map((person) => `${person.firstName} ${person.lastName.toUpperCase()}`);
+
 }
 
 // Testaufrufe

@@ -15,8 +15,7 @@
  * @returns {boolean} - true, wenn Anagramm, sonst false
  */
 function isAnagram(str1, str2) {
-  const clean = (str) => str.toLowerCase().replace(/\s/g, "").split("").sort().join("");
-  return clean(str1) === clean(str2);
+
 }
 
 // Testaufrufe

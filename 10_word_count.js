@@ -7,19 +7,7 @@
  * @returns {Object} - Häufigkeiten der Wörter
  */
 function wordFrequencies(text) {
-  const words = text
-    .toLowerCase()
-    .replace(/[^\w\s]/g, "") // Satzzeichen entfernen
-    .trim()
-    .split(/\s+/); // nach beliebig vielen Leerzeichen splitten
 
-  const freq = {};
-
-  for (let word of words) {
-    freq[word] = (freq[word] || 0) + 1;
-  }
-
-  return freq;
 }
 
 // Testaufrufe

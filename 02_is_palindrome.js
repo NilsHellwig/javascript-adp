@@ -15,9 +15,7 @@
  * @returns {boolean} - true, wenn x ein Palindrom ist, sonst false
  */
 function isPalindrome(x) {
-  const str = x.toString();
-  const reversed = str.split("").reverse().join("");
-  return str === reversed;
+
 }
 
 // Testaufrufe

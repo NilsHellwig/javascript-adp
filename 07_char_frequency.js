@@ -10,19 +10,7 @@
  * @returns {Object} - Objekt mit Zeichen als Schlüssel und Anzahl als Wert
  */
 function charFrequency(str) {
-  const freq = {};
 
-  for (let char of str) {
-    if (char === " ") continue; // Leerzeichen ignorieren
-
-    if (freq[char]) {
-      freq[char]++;
-    } else {
-      freq[char] = 1;
-    }
-  }
-
-  return freq;
 }
 
 // Testaufrufe
