@@ -1,6 +1,6 @@
 # Beispiele für JavaScript Algorithmen
 
-Dieses Repository enthält mehrere JavaScript-Skripte, um Konzepte, die in der Vorlesung eingeführt wurden vertiefen. Das Repository enthält einige bekannte Programmierfragestellung.
+Dieses Repository enthält mehrere JavaScript-Skripte, um Konzepte, die in der Vorlesung eingeführt wurden zu vertiefen. Das Repository enthält einige bekannte Programmierfragestellung.
 
 
 ## Schritte zum Ausführen eines Skripts
