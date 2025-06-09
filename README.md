@@ -1,15 +1,14 @@
 # Beispiele für JavaScript Algorithmen
 
-Dieses Repository enthält mehrere JavaScript-Skripte, um Konzepte, die in der Vorlesung eingeführt wurden zu vertiefen. Das Repository enthält einige bekannte Programmierfragestellungen.
+Dieses Repository enthält mehrere JavaScript-Skripte, um grundlegende JavaScript Konzepte, die in der Vorlesung eingeführt wurden zu vertiefen.
 
 
 ## Schritte zum Ausführen eines Skripts
 
 
-2. **Terminal/Command Prompt öffnen**  
-   Öffne das Terminal.
+1. **Terminal/Command Prompt öffnen**  
 
-3. **Skript ausführen**
+2. **Skript ausführen**
    Beispiel:
    ```bash
    node 01_two_sums.js
